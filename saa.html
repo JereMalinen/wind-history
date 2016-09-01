@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Oulun Linnanmaan säähistoria</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" type="text/css" href="weather.css" />
+    <script src="dygraph-combined.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.8.23/jquery-ui.min.js"></script>
+    <script src="weather.js"></script>
+  </head>
+  <body>
+    <h1>Oulun Linnanmaan säähistoria</h1>
+    <p>Useamman päivän historia:
+        <a href="?d=1">1</a>,
+        <a href="?d=2">2</a>,
+        <a href="?d=3">3</a>,
+        <a href="?d=4">4</a>,
+        <a href="?d=5">5</a>,
+        <a href="?d=6">6</a>,
+        <a href="?d=7">7</a>
+    </p>
+    <p>Tuuli:</p>
+    <div id="wind" class="graph" style="">...</div>
+    Tuulen suunta (0=pohjoinen, 90=itä, 180=etelä, 270=länsi):
+    <div id="direction" class="graph" style="">...</div>
+    <p>Data peräisin <a href="http://weather.willab.fi/weather.html.fi">Linnanmaan sääasemasta</a></p>
+    <p>(Tämä on kokeellinen sivu, että näkee olisiko tuulihistoriasta iloa)</p>
+  </body>
+</html>
